@@ -1,4 +1,4 @@
-To run this project on your pc 
+To run this project on your system
 
 .First install visual studio code, composer , Xammp, laravel, laravel breeze (livewire)
 .Then after that start the xammp server and open the folder in visual studio code 
