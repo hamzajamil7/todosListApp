@@ -1,0 +1,43 @@
+Test Cases for Task Management Application
+
+1. Create Task
+Test Case ID: TC-01
+Description: Verify that a user can create a new task.
+Precondition: User is logged in.
+Expected Result: The task is created.
+Status : Pass
+
+2. Display Task List
+Test Case ID: TC002
+Description: Verify that the task list is displayed correctly.
+Precondition: User has created multiple tasks.
+Expected Result: All tasks created by the user are displayed with their titles.
+Status : Pass
+
+3. Update Task
+Test Case ID: TC003
+Description: Verify that a user can update an existing task.
+Precondition: User has at least one existing task.
+Expected Result: The task is updated and the changes are reflected in the task list.
+Status : Pass
+
+4. Delete Task
+Test Case ID: TC004
+Description: Verify that a user can delete a task.
+Preconditions: User has at least one existing task.
+Expected Result: The task is removed from the task list.
+Status : Pass
+
+5. Mark Task as Complete
+Test Case ID: TC005
+Description: Verify that a user can mark a task as complete.
+Preconditions: User has at least one existing task.
+Expected Result: The task status is updated to completed
+Status : Pass
+
+6. Validate Required Fields
+Test Case ID: TC006
+Description: Verify that required fields are validated when creating a task.
+Preconditions: User is logged in.
+Expected Result: An error message is displayed indicating that the title is required.
+Status : Pass
