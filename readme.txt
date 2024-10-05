@@ -26,3 +26,6 @@ then after that run the command "php artisan serve" to start the project.
 
 
 Then go to the web page and register yourself set the credentials and after that you can add,edit,delete,mark as read the todos also you can change  your profile name in the profile section  
+
+
+Also the screenshots of the UI is placed in the folder named as UI ScreenShots.
