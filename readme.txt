@@ -42,3 +42,5 @@ Then go to the web page and register yourself set the credentials and after that
 
 
 Also the screenshots of the UI is placed in the folder named as UI ScreenShots.
+
+Test cases file is also present in this named as TestCases.txt
