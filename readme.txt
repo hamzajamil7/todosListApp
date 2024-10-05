@@ -1,7 +1,21 @@
 To run this project on your system
 
-.First install visual studio code, composer , Xammp, laravel, laravel breeze (livewire)
-.Then after that start the xammp server and open the folder in visual studio code 
+.First install visual studio code, composer , Xammp, laravel, laravel breeze and livewire
+
+to install breeze Run this command
+
+composer require laravel/breeze --dev
+
+after that run that command 
+
+php artisan breeze:install
+
+then choose Livewire (Volt class API) with Alpine
+then choose dark mode yes 
+then choose testing framework PhpUnit
+
+
+And Then after that start the xammp server and open the folder in visual studio code 
 
 
 copy the env example file and make a new file name as .env and paste the copied material into that.
@@ -15,12 +29,11 @@ php artisan key:generate
 
 npm i 
 
+php artisan migrate (IN this command it ask you to create a new database click on yes and it will create your database same name as which you give in env)
+
 npm run dev
 
 npm run build
-
-php artisan migrate (IN this command it ask you to create a new database click on yes and it will create your database same name as which you give in env)
-
 
 then after that run the command "php artisan serve" to start the project.
 
